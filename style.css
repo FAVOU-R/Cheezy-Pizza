@@ -1,0 +1,64 @@
+.container{
+    background: url(/assets/assets/banner.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.main-wrapper{
+   background: #ffcc1a;
+}
+
+#heading-2{
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-around;  
+}
+
+#nav-item{
+    list-style: none;
+    padding: 10px 85px;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#nav-item:hover{
+    background: red;
+}
+
+.video{
+    background: black;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.services img{
+    height: 310px;
+    width: 310px;
+    border-radius: 10px;
+}
+
+.social-hundles{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.footer-note{
+    text-align: center;
+}
